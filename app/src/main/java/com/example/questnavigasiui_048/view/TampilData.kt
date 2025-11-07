@@ -1,6 +1,7 @@
 package com.example.questnavigasiui_048.view
 
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import com.example.questnavigasiui_048.R
@@ -15,4 +16,6 @@ fun TampilData(
         Pair(stringResource(id = R.string.jenis_kelamin), "Yang Lain"),
         Pair(stringResource(id = R.string.alamat), "Yogyakarta")
     )
+    Scaffold (modifier = Modifier,
+        {})
 }
